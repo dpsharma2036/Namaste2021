@@ -65,5 +65,12 @@ button {
 
 .Navigation a {
   display: block;
-  padding: 4px;
+  padding: 5px;
+}
+.hr{
+  border:none;
+  height:1 px;
+  size:2px;
+ 
+  background-color: black;
 }

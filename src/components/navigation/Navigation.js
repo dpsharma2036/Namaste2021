@@ -6,10 +6,16 @@ function Navigation(props){
     return(
         <div className="Navigation">
           <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/clock">Clock</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-
+          <li>
+            <Link to="/">Home</Link>
+            </li> <br/>
+          <li>
+            <Link to="/clock">Clock</Link></li>
+            <br/>
+          <li>
+            <Link to="/contact">Contact</Link>
+            </li>
+           <hr/>
           </ul>
 
         </div>
